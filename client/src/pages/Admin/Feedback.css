@@ -1,0 +1,83 @@
+/* Feedback.css */
+
+.feed{
+    /* display: flex;
+    justify-content: space-between; */
+    /* border:solid 2px black; */
+    /* width:1500px;
+    margin:125px auto; */
+}
+
+.bg-feedback
+{
+    width:50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../images1/feedback.gif");
+}
+
+.feedback-container {
+    min-width: 900px;
+    /* margin: 20px auto; */
+    padding: 20px;
+    background: linear-gradient(to right, #2980b9, #2c3e50);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000; /* Changed text color to black */
+    font-family: 'Arial', sans-serif; /* Changed font */
+  }
+  
+  .feedback-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff; /* Set text color back to white */
+  }
+  
+  .feedback-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedback-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feedback-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .feedback-text {
+    font-size: 16px;
+    margin: 15px; 
+  }
+  
+  .feedback-label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: #555;
+  }
+  
+  /* Add animation for the heading */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .feedback-heading {
+    animation: fadeIn 0.5s ease-out;
+  }
+  

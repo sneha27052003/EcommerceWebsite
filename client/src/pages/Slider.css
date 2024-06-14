@@ -1,0 +1,19 @@
+.slider {
+  width: 100%; /* Set a maximum width for the container */
+  height: auto; /* Allow the height to adjust proportionally */
+  object-fit: cover;
+  }
+
+  .slide-img{
+    object-fit:contain;
+    aspect-ratio:inherit;
+  }
+.flex-wrap-p
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 50px;
+  max-width: 1200px;
+  padding: 20px;
+  padding-left: 70px;
+}
